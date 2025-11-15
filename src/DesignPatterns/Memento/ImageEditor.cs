@@ -2,8 +2,8 @@
 using Lemure.DesignPatterns.Memento.Concretes;
 using Lemure.DesignPatterns.Memento.Contracts;
 
-namespace Lemure.DesignPatterns.Memento
-{
+namespace Lemure.DesignPatterns.Memento;
+
 	public class ImageEditor
 	{
 		private string FilePath;
@@ -28,4 +28,3 @@ namespace Lemure.DesignPatterns.Memento
 			FilePath = concreteMemento.GetFilePath();
 		}
 	}
-}

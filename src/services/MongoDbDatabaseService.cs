@@ -1,8 +1,8 @@
 ﻿using System;
 using lemure.interfaces;
 
-namespace lemure.services
-{
+namespace lemure.services;
+
 	class MongoDbDatabaseService : IDatabase
 	{
 		public void delete()
@@ -29,4 +29,3 @@ namespace lemure.services
 			Console.WriteLine("Updating 1 row");
 		}
 	}
-}

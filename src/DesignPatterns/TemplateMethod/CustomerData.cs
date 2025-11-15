@@ -1,5 +1,5 @@
-﻿namespace Lemure.DesignPatterns.TemplateMethod
-{
+﻿namespace Lemure.DesignPatterns.TemplateMethod;
+
 	public class CustomerData
 	{
 		public string Name { get; set; }
@@ -11,4 +11,3 @@
 		public string Phone { get; set; }
 		public string Region { get; set; }
 	}
-}

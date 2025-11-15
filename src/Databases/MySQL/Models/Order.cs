@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lemure.Databases.MySQL.Models
-{
+namespace Lemure.Databases.MySQL.Models;
+
 	public class Order
 	{
 		[Key]
@@ -18,4 +18,3 @@ namespace Lemure.Databases.MySQL.Models
 			Description = description;
 		}
 	}
-}

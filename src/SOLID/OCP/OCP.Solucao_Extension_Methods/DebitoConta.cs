@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 
-namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods
-{
+namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods;
+
 	public class DebitoConta
 	{
 		public string NumeroConta { get; set; }
@@ -19,4 +19,3 @@ namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods
 			return NumeroTransacao;
 		}
 	}
-}

@@ -5,8 +5,8 @@ using Lemure.DesignPatterns.CQRS.Commands;
 using Lemure.DesignPatterns.CQRS.Notifications;
 using MediatR;
 
-namespace Lemure.DesignPatterns.CQRS.Handlers
-{
+namespace Lemure.DesignPatterns.CQRS.Handlers;
+
 	public class ExcluiPessoaCommandHandler : IRequestHandler<ExcluirPessoaCommand, string>
 	{
 		private readonly IMediator _mediator;
@@ -33,4 +33,3 @@ namespace Lemure.DesignPatterns.CQRS.Handlers
 			}
 		}
 	}
-}

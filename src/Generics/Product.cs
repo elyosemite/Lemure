@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Lemure.Generics
-{
+namespace Lemure.Generics;
+
 	public class Product : Identifier
 	{
 		private string _name { get; set; }
@@ -34,4 +34,3 @@ namespace Lemure.Generics
 			return $"{Id} - Name: {_name} of Price equal to {_price}";
 		}
 	}
-}

@@ -2,8 +2,8 @@
 using Lemure.DesignPatterns.AbstractFactory.Factories;
 using Lemure.Enums;
 
-namespace Lemure.DesignPatterns.AbstractFactory
-{
+namespace Lemure.DesignPatterns.AbstractFactory;
+
 	public class App
 	{
 		private GUIFactory _factory;
@@ -33,4 +33,3 @@ namespace Lemure.DesignPatterns.AbstractFactory
 		}
 
 	}
-}

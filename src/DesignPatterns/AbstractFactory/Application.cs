@@ -1,7 +1,7 @@
 ﻿using Lemure.DesignPatterns.AbstractFactory.Contracts;
 
-namespace Lemure.DesignPatterns.AbstractFactory
-{
+namespace Lemure.DesignPatterns.AbstractFactory;
+
 	public class Application
 	{
 		private readonly GUIFactory _factory; //backing field
@@ -22,4 +22,3 @@ namespace Lemure.DesignPatterns.AbstractFactory
 			_button.Paint();
 		}
 	}
-}

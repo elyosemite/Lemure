@@ -1,8 +1,8 @@
 using System;
 using lemure.DesignPatterns.Observer.Contracts;
 
-namespace lemure.DesignPatterns.Observer
-{
+namespace lemure.DesignPatterns.Observer;
+
 	public class ConcreteObserverC : IObserver
 	{
 		public bool msg { get; set; } = false;
@@ -12,4 +12,3 @@ namespace lemure.DesignPatterns.Observer
 			Console.WriteLine($"It has reacted an event C {this.msg}\n");
 		}
 	}
-}

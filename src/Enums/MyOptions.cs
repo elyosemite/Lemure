@@ -1,5 +1,5 @@
-﻿namespace lemure.Enums
-{
+﻿namespace lemure.Enums;
+
 	public enum MyOptions : int
 	{
 		F = 0,
@@ -8,4 +8,3 @@
 		B = 3,
 		A = 4
 	}
-}

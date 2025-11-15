@@ -1,5 +1,5 @@
-﻿namespace lemure.Enums
-{
+﻿namespace lemure.Enums;
+
 
 	public static class EnumExtension
 	{
@@ -9,4 +9,3 @@
 			return grade >= minPassing;
 		}
 	}
-}

@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace lemure.Serializable
-{
+namespace lemure.Serializable;
+
 	public class ObjectMain : ISerializable
 	{
 		public readonly int _Id;
@@ -49,4 +49,3 @@ namespace lemure.Serializable
 			info.AddValue("Code", _Code);
 		}
 	}
-}

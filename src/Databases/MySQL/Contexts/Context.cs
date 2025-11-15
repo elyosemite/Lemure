@@ -1,8 +1,8 @@
 ﻿using Lemure.Databases.MySQL.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Lemure.Databases.MySQL.Contexts
-{
+namespace Lemure.Databases.MySQL.Contexts;
+
 	public class Context : DbContext
 	{
 		public DbSet<Order> Order { get; set; }
@@ -26,4 +26,3 @@ namespace Lemure.Databases.MySQL.Contexts
 				.HasForeignKey(foreignKey => foreignKey.OrderId);
 		}
 	}
-}

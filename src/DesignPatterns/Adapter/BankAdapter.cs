@@ -2,8 +2,8 @@
 using Lemure.DesignPatterns.Adapter.Concretes.Banks;
 using Lemure.DesignPatterns.Adapter.Contracts;
 
-namespace Lemure.DesignPatterns.Adapter
-{
+namespace Lemure.DesignPatterns.Adapter;
+
 	public class BankAdapter : IFinantialTransaction
 	{
 		private readonly ItauUnibancoBank _itauUnibancoBank;
@@ -22,4 +22,3 @@ namespace Lemure.DesignPatterns.Adapter
 			return obj.Status;
 		}
 	}
-}

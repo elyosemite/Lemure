@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Lemure.DesignPatterns.Mediator.Mediators;
 
-namespace Lemure.DesignPatterns.Mediator
-{
+namespace Lemure.DesignPatterns.Mediator;
+
 	public class Seller
 	{
 		public Guid SellerIdentifier { get; } = Guid.NewGuid();
@@ -42,4 +42,3 @@ namespace Lemure.DesignPatterns.Mediator
 			return item;
 		}
 	}
-}

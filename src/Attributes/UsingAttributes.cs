@@ -1,8 +1,8 @@
 ﻿using System;
 using lemure.interfaces.Attribute;
 
-namespace lemure.Attributes
-{
+namespace lemure.Attributes;
+
 	public class Contract : IContractAttribute
 	{
 		public string firstName { get; }
@@ -33,4 +33,3 @@ namespace lemure.Attributes
 			Console.WriteLine();
 		}
 	}
-}

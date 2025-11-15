@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.interfaces
-{
+namespace lemure.interfaces;
+
 	public static class StaticTest
 	{
 		private static int firstNumber { get; set; }
@@ -35,4 +35,3 @@ namespace lemure.interfaces
 			return result;
 		}
 	}
-}

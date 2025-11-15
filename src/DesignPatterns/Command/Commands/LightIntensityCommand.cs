@@ -2,8 +2,8 @@
 using Lemure.DesignPatterns.Command.Contracts;
 using Lemure.DesignPatterns.Command.Receveirs;
 
-namespace Lemure.DesignPatterns.Command.Commands
-{
+namespace Lemure.DesignPatterns.Command.Commands;
+
 	public class LightIntensityCommand : ISmartHouse
 	{
 		private readonly SmartHouseReceiver _smartHouseReceiver;
@@ -25,4 +25,3 @@ namespace Lemure.DesignPatterns.Command.Commands
 			Console.WriteLine($"Decrease {_smartHouseReceiver.name}' Intensity to {result}");
 		}
 	}
-}

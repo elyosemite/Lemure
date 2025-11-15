@@ -2,8 +2,8 @@
 using lemure.helpers;
 using lemure.interfaces;
 
-namespace lemure.Controllers
-{
+namespace lemure.Controllers;
+
 	class CustomerController
 	{
 		private readonly IDatabase _databaseConnect;
@@ -25,4 +25,3 @@ namespace lemure.Controllers
 		}
 
 	}
-}

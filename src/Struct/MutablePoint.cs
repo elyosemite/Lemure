@@ -1,5 +1,5 @@
-﻿namespace lemure.Struct
-{
+﻿namespace lemure.Struct;
+
 	public struct MutablePoint
 	{
 		public int X;
@@ -7,4 +7,3 @@
 		public MutablePoint(int x, int y) => (X, Y) = (x, y);
 		public override string ToString() => $"({X}, {Y})";
 	}
-}

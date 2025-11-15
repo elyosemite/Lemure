@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
 
-namespace lemure.Reflection.NoReflection
-{
+namespace lemure.Reflection.NoReflection;
+
 	public class LogNoReflection
 	{
 		public static void ProductLog(Product product)
@@ -44,4 +44,3 @@ namespace lemure.Reflection.NoReflection
 			Console.WriteLine(text);
 		}
 	}
-}

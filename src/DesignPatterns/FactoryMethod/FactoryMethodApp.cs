@@ -1,8 +1,8 @@
 ﻿using Lemure.DesignPatterns.FactoryMethod.Creators;
 using Lemure.Enums;
 
-namespace Lemure.DesignPatterns.FactoryMethod
-{
+namespace Lemure.DesignPatterns.FactoryMethod;
+
 	public class FactoryMethodApp
 	{
 		public Dialog Dialog { get; private set; }
@@ -38,4 +38,3 @@ namespace Lemure.DesignPatterns.FactoryMethod
 			Dialog.Render();
 		}
 	}
-}

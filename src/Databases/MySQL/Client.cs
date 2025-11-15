@@ -4,8 +4,8 @@ using Lemure.Databases.MySQL.Contexts;
 using Lemure.Databases.MySQL.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Lemure.Databases.MySQL
-{
+namespace Lemure.Databases.MySQL;
+
 	public class Client
 	{
 		public void Run()
@@ -47,4 +47,3 @@ namespace Lemure.Databases.MySQL
 			}
 		}
 	}
-}

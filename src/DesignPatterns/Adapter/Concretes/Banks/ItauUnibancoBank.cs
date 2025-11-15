@@ -1,8 +1,8 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Lemure.DesignPatterns.Adapter.Concretes.Banks
-{
+namespace Lemure.DesignPatterns.Adapter.Concretes.Banks;
+
 
 	public struct Transaction
 	{
@@ -52,4 +52,3 @@ namespace Lemure.DesignPatterns.Adapter.Concretes.Banks
 			return result;
 		}
 	}
-}

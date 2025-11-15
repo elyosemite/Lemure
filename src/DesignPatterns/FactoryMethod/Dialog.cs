@@ -1,7 +1,7 @@
 ﻿using Lemure.DesignPatterns.FactoryMethod.Contracts;
 
-namespace Lemure.DesignPatterns.FactoryMethod
-{
+namespace Lemure.DesignPatterns.FactoryMethod;
+
 	public abstract class Dialog
 	{
 		public abstract Button FactoryMethod();
@@ -12,4 +12,3 @@ namespace Lemure.DesignPatterns.FactoryMethod
 			button.Render();
 		}
 	}
-}

@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Lemure.DesignPatterns.ChainOfResponsability
-{
+namespace Lemure.DesignPatterns.ChainOfResponsability;
+
 	public class CEOBudgetHandler : BaseBudgetHandler
 	{
 		public override CustomerBudget Handle(CustomerBudget budget)
@@ -11,4 +11,3 @@ namespace Lemure.DesignPatterns.ChainOfResponsability
 			return budget;
 		}
 	}
-}

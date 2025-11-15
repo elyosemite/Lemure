@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods
-{
+namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods;
+
 	public class CaixaEletronico
 	{
 		public static void Operaçoes()
@@ -71,4 +71,3 @@ namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods
 			Console.ReadKey();
 		}
 	}
-}

@@ -1,5 +1,5 @@
-﻿namespace lemure.SOLID.OCP.OCP.Violacao
-{
+﻿namespace lemure.SOLID.OCP.OCP.Violacao;
+
 	public class DebitoConta
 	{
 		public void Debitar(decimal valor, string conta, TipoConta tipoConta)
@@ -16,4 +16,3 @@
 			}
 		}
 	}
-}

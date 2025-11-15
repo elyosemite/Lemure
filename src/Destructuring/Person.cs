@@ -1,5 +1,5 @@
-﻿namespace lemure.Destructuring
-{
+﻿namespace lemure.Destructuring;
+
 	public class Person
 	{
 		public string FirstName { get; set; }
@@ -41,4 +41,3 @@
 			state = State;
 		}
 	}
-}

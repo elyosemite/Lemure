@@ -1,6 +1,5 @@
-﻿namespace lemure.SOLID.OCP.MyOwnCode
-{
+﻿namespace lemure.SOLID.OCP.MyOwnCode;
+
 	class DebitoContaCorrente
 	{
 	}
-}

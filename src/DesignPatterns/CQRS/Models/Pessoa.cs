@@ -1,5 +1,5 @@
-namespace Lemure.DesignPatterns.CQRS.Models
-{
+namespace Lemure.DesignPatterns.CQRS.Models;
+
 	public class Pessoa
 	{
 		public int Id { get; set; }
@@ -7,4 +7,3 @@ namespace Lemure.DesignPatterns.CQRS.Models
 		public int Idade { get; set; }
 		public char Sexo { get; set; }
 	}
-}

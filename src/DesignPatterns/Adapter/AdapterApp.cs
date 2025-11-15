@@ -2,8 +2,8 @@
 using Lemure.DesignPatterns.Adapter.Concretes;
 using Lemure.DesignPatterns.Adapter.Contracts;
 
-namespace Lemure.DesignPatterns.Adapter
-{
+namespace Lemure.DesignPatterns.Adapter;
+
 	public class AdapterApp
 	{
 		public static void Run()
@@ -17,4 +17,3 @@ namespace Lemure.DesignPatterns.Adapter
 			Console.WriteLine(target.GetRequest());
 		}
 	}
-}

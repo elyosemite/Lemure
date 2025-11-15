@@ -1,7 +1,7 @@
 ﻿using Lemure.DesignPatterns.Specification.Specs;
 
-namespace Lemure.DesignPatterns.Specification
-{
+namespace Lemure.DesignPatterns.Specification;
+
 	public enum Color
 	{
 		Black,
@@ -40,4 +40,3 @@ namespace Lemure.DesignPatterns.Specification
 			return new LuxuryCarSpecification().IsSatisfiedBy(car);
 		}
 	}
-}

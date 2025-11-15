@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.SOLID.OCP.MyOwnCode
-{
+namespace lemure.SOLID.OCP.MyOwnCode;
+
 	public abstract class DebitoConta
 	{
 		private int numeroDaTransacao { get; }
@@ -11,4 +11,3 @@ namespace lemure.SOLID.OCP.MyOwnCode
 			return Guid.NewGuid().ToString();
 		}
 	}
-}

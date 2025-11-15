@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Lemure.DesignPatterns.Mediator.Mediators
-{
+namespace Lemure.DesignPatterns.Mediator.Mediators;
+
 	public class MediatorComponent
 	{
 		private ICollection<Seller> _sellers { get; } = new List<Seller>();
@@ -63,4 +63,3 @@ namespace Lemure.DesignPatterns.Mediator.Mediators
 			return identifiers;
 		}
 	}
-}

@@ -1,7 +1,7 @@
 using MediatR;
 
-namespace Lemure.DesignPatterns.CQRS.Notifications
-{
+namespace Lemure.DesignPatterns.CQRS.Notifications;
+
 	public class PessoaCriadaNotification : INotification
 	{
 		public int Id { get; set; }
@@ -9,4 +9,3 @@ namespace Lemure.DesignPatterns.CQRS.Notifications
 		public int Idade { get; set; }
 		public char Sexo { get; set; }
 	}
-}

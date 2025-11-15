@@ -1,5 +1,5 @@
-﻿namespace Lemure.DesignPatterns.Proxy.SystemUser
-{
+﻿namespace Lemure.DesignPatterns.Proxy.SystemUser;
+
 	public struct Address
 	{
 		public string Street { get; }
@@ -16,4 +16,3 @@
 			return $"Street: {Street} | Number {Number}";
 		}
 	}
-}

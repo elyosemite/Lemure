@@ -3,8 +3,8 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Lemure.Streams
-{
+namespace Lemure.Streams;
+
 	public class Client
 	{
 		private static byte[] _publicKey = Encoding.UTF8.GetBytes("CertA1A3");
@@ -122,4 +122,3 @@ KDRk+LHFQSlgLRrHur0Io79mTbFDLuj84BZUuEVLXcpXGdsWJE9i0hpF44avYLLAFXzyZeb44C4OLZOJ
 			return retorno;
 		}
 	}
-}

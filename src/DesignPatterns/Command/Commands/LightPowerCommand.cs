@@ -1,8 +1,8 @@
 ﻿using Lemure.DesignPatterns.Command.Contracts;
 using Lemure.DesignPatterns.Command.Receveirs;
 
-namespace Lemure.DesignPatterns.Command.Commands
-{
+namespace Lemure.DesignPatterns.Command.Commands;
+
 	public class LightPowerCommand : ISmartHouse
 	{
 		private readonly SmartHouseReceiver _smartHouseLight;
@@ -22,4 +22,3 @@ namespace Lemure.DesignPatterns.Command.Commands
 			_smartHouseLight.Off();
 		}
 	}
-}

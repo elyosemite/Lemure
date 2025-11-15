@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Lemure.DesignPatterns.CQRS.Notifications;
 using MediatR;
 
-namespace Lemure.DesignPatterns.CQRS
-{
+namespace Lemure.DesignPatterns.CQRS;
+
 	public class EventLogHandler :
 							INotificationHandler<PessoaCriadaNotification>,
 							INotificationHandler<PessoaAlteradaNotification>,
@@ -44,4 +44,3 @@ namespace Lemure.DesignPatterns.CQRS
 			});
 		}
 	}
-}

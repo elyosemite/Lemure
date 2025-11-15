@@ -1,5 +1,5 @@
-namespace Lemure.DesignPatterns.ChainOfResponsability
-{
+namespace Lemure.DesignPatterns.ChainOfResponsability;
+
 	public class CustomerBudget
 	{
 		public bool Approved { get; set; } = false;
@@ -10,4 +10,3 @@ namespace Lemure.DesignPatterns.ChainOfResponsability
 			TotalPrice = totalPrice;
 		}
 	}
-}

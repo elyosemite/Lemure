@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.Destructuring
-{
+namespace lemure.Destructuring;
+
 	public class DestructuringTuples
 	{
 		private static (string, int, double) QueryCityData(string name)
@@ -53,4 +53,3 @@ namespace lemure.Destructuring
 			Console.WriteLine(size);
 		}
 	}
-}

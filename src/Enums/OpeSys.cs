@@ -1,9 +1,8 @@
-﻿namespace Lemure.Enums
-{
+﻿namespace Lemure.Enums;
+
 	public enum OpeSys
 	{
 		Windows,
 		Linux,
 		MacOS
 	}
-}

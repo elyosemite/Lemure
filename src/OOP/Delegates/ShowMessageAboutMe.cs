@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.OOP.Delegates
-{
+namespace lemure.OOP.Delegates;
+
 	public interface IEngineer
 	{
 		string _firstName { get; set; }
@@ -41,4 +41,3 @@ namespace lemure.OOP.Delegates
 			Console.WriteLine("My position: {0}", engineer._position);
 		}
 	}
-}

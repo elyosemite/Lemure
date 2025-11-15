@@ -1,5 +1,5 @@
-﻿namespace Lemure.Logging
-{
+﻿namespace Lemure.Logging;
+
 	public class NeedLogging
 	{
 		public void DoSomething()
@@ -7,4 +7,3 @@
 
 		}
 	}
-}

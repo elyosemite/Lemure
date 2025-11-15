@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using Lemure.DesignPatterns.Mediator.Mediators;
 
-namespace Lemure.DesignPatterns.Mediator
-{
+namespace Lemure.DesignPatterns.Mediator;
+
 	public class Client
 	{
 		public static void Run()
@@ -41,4 +41,3 @@ namespace Lemure.DesignPatterns.Mediator
 			buyer.ShowProductsBySeller(seller01.SellerIdentifier);
 		}
 	}
-}

@@ -1,8 +1,8 @@
 ﻿using Lemure.DesignPatterns.Adapter.Concretes;
 using Lemure.DesignPatterns.Adapter.Contracts;
 
-namespace Lemure.DesignPatterns.Adapter
-{
+namespace Lemure.DesignPatterns.Adapter;
+
 	public class Adapter : ITarget
 	{
 		public readonly Adaptee _adaptee;
@@ -17,4 +17,3 @@ namespace Lemure.DesignPatterns.Adapter
 			return $"This is '{_adaptee.GetSpecificRequest()}'";
 		}
 	}
-}

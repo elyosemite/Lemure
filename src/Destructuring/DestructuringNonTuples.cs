@@ -1,5 +1,5 @@
-namespace Lemure.Destructuring
-{
+namespace Lemure.Destructuring;
+
 	public class DestructuringNonTuples
 	{
 		public void Deconstruct()
@@ -7,4 +7,3 @@ namespace Lemure.Destructuring
 
 		}
 	}
-}

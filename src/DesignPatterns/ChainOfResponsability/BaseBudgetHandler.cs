@@ -1,5 +1,5 @@
-namespace Lemure.DesignPatterns.ChainOfResponsability
-{
+namespace Lemure.DesignPatterns.ChainOfResponsability;
+
 	public abstract class BaseBudgetHandler
 	{
 		protected BaseBudgetHandler NextHandler = null;
@@ -17,4 +17,3 @@ namespace Lemure.DesignPatterns.ChainOfResponsability
 			return budget;
 		}
 	}
-}

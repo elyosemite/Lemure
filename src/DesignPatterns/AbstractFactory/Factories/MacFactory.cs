@@ -1,8 +1,8 @@
 ﻿using Lemure.DesignPatterns.AbstractFactory.Concretes;
 using Lemure.DesignPatterns.AbstractFactory.Contracts;
 
-namespace Lemure.DesignPatterns.AbstractFactory.Factories
-{
+namespace Lemure.DesignPatterns.AbstractFactory.Factories;
+
 	public class MacFactory : GUIFactory
 	{
 		public Button ButtonFactory()
@@ -15,4 +15,3 @@ namespace Lemure.DesignPatterns.AbstractFactory.Factories
 			return new MacCheckbox();
 		}
 	}
-}

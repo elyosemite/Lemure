@@ -1,8 +1,8 @@
 ﻿using System;
 using Lemure.DesignPatterns.Adapter.Concretes.Banks;
 
-namespace Lemure.DesignPatterns.Adapter
-{
+namespace Lemure.DesignPatterns.Adapter;
+
 	public class BankApp
 	{
 		public static void Run()
@@ -13,4 +13,3 @@ namespace Lemure.DesignPatterns.Adapter
 			Console.WriteLine(bankAdapter.GetStatus());
 		}
 	}
-}

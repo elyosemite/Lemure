@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Lemure.DesignPatterns.Prototype
-{
+namespace Lemure.DesignPatterns.Prototype;
+
 	public class Client
 	{
 		public static void Run()
@@ -48,4 +48,3 @@ namespace Lemure.DesignPatterns.Prototype
 			Console.WriteLine("      ID#: {0:d}", p.IdInfo.IdNumber);
 		}
 	}
-}

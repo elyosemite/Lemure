@@ -1,5 +1,5 @@
-﻿namespace lemure.interfaces.Attribute
-{
+﻿namespace lemure.interfaces.Attribute;
+
 	public interface IContractAttribute
 	{
 		public string firstName { get; }
@@ -7,4 +7,3 @@
 		public string age { get; }
 		public bool assign { get; }
 	}
-}

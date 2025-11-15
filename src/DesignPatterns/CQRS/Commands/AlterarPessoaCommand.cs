@@ -1,7 +1,7 @@
 using MediatR;
 
-namespace Lemure.DesignPatterns.CQRS.Commands
-{
+namespace Lemure.DesignPatterns.CQRS.Commands;
+
 	public class AlterarPessoaCommand : IRequest<string>
 	{
 		public int Id { get; set; }
@@ -9,4 +9,3 @@ namespace Lemure.DesignPatterns.CQRS.Commands
 		public int Idade { get; set; }
 		public char Sexo { get; set; }
 	}
-}

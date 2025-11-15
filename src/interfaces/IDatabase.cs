@@ -1,5 +1,5 @@
-﻿namespace lemure.interfaces
-{
+﻿namespace lemure.interfaces;
+
 	interface IDatabase
 	{
 		public void insert();
@@ -8,4 +8,3 @@
 		public void update();
 
 	}
-}

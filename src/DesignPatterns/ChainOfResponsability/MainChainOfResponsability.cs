@@ -1,5 +1,5 @@
-﻿namespace Lemure.DesignPatterns.ChainOfResponsability
-{
+﻿namespace Lemure.DesignPatterns.ChainOfResponsability;
+
 	public class MainChainOfResponsability
 	{
 		public static void Run()
@@ -26,4 +26,3 @@
 			}
 		}
 	}
-}

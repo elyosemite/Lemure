@@ -1,6 +1,6 @@
 ﻿
-namespace lemure.OOP
-{
+namespace lemure.OOP;
+
 	abstract class Eletrodomestico
 	{
 		private readonly string _nome;
@@ -18,4 +18,3 @@ namespace lemure.OOP
 			//Testa o equipamento...
 		}
 	}
-}

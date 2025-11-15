@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Lemure.Generics
-{
+namespace Lemure.Generics;
+
 	public class ExampleReadOnly
 	{
 		public static void GetDinosaursReadOnly()
@@ -54,4 +54,3 @@ namespace Lemure.Generics
 			}
 		}
 	}
-}

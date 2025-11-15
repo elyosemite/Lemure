@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.OOP
-{
+namespace lemure.OOP;
+
 	class CafeteiraExpressa : Eletrodomestico
 	{
 
@@ -37,4 +37,3 @@ namespace lemure.OOP
 			throw new NotImplementedException();
 		}
 	}
-}

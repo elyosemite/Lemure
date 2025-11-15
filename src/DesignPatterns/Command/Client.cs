@@ -2,8 +2,8 @@
 using Lemure.DesignPatterns.Command.Invokers;
 using Lemure.DesignPatterns.Command.Receveirs;
 
-namespace Lemure.DesignPatterns.Command
-{
+namespace Lemure.DesignPatterns.Command;
+
 	public class Client
 	{
 		public static void Run()
@@ -39,4 +39,3 @@ namespace Lemure.DesignPatterns.Command
 			smartHouseInvoker.UndoCommand("bathroom-light-intensity");
 		}
 	}
-}

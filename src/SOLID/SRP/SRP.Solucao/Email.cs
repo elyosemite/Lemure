@@ -1,5 +1,5 @@
-﻿namespace lemure.SOLID.SRP.SRP.Solucao
-{
+﻿namespace lemure.SOLID.SRP.SRP.Solucao;
+
 	class email
 	{
 		public string Endereco { get; set; }
@@ -8,4 +8,3 @@
 			return Endereco.Contains(value: "@");
 		}
 	}
-}

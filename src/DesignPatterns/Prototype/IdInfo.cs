@@ -1,5 +1,5 @@
-﻿namespace Lemure.DesignPatterns.Prototype
-{
+﻿namespace Lemure.DesignPatterns.Prototype;
+
 	public class IdInfo
 	{
 		public int IdNumber { get; set; }
@@ -9,4 +9,3 @@
 			IdNumber = idNumber;
 		}
 	}
-}

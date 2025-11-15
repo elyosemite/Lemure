@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Lemure.DesignPatterns.Command.Receveirs
-{
+namespace Lemure.DesignPatterns.Command.Receveirs;
+
 	public class SmartHouseReceiver
 	{
 		public readonly string name;
@@ -45,4 +45,3 @@ namespace Lemure.DesignPatterns.Command.Receveirs
 		}
 
 	}
-}

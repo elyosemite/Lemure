@@ -1,5 +1,5 @@
-﻿namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods
-{
+﻿namespace lemure.SOLID.OCP.OCP.Solucao_Extension_Methods;
+
 	public static class DebitoContaCorrente
 	{
 		// Extensions Methods
@@ -9,4 +9,3 @@
 			return debitoConta.FormatarTransacao();
 		}
 	}
-}

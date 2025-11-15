@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using Lemure.Collections.Comparable;
 
-namespace Lemure.Collections.Comparer
-{
+namespace Lemure.Collections.Comparer;
+
 	public class CarComparer : IComparer<Car>
 	{
 		public enum SortBy
@@ -26,4 +26,3 @@ namespace Lemure.Collections.Comparer
 			return x.Name.CompareTo(y.Name);
 		}
 	}
-}

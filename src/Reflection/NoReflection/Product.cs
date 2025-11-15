@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.Reflection.NoReflection
-{
+namespace lemure.Reflection.NoReflection;
+
 	public class Product
 	{
 		public int Id { get; set; }
@@ -10,4 +10,3 @@ namespace lemure.Reflection.NoReflection
 		public Decimal Price { get; set; }
 		public int Stock { get; set; }
 	}
-}

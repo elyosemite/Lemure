@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace lemure.LazyInitialization
-{
+namespace lemure.LazyInitialization;
+
 	class LazyInit
 	{
 		public void Load()
@@ -11,4 +11,3 @@ namespace lemure.LazyInitialization
 			Console.WriteLine(_orders.Value.Count);
 		}
 	}
-}

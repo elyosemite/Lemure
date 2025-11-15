@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using lemure.Collections.Domain;
 
-namespace lemure.Collections.Enumerations
-{
+namespace lemure.Collections.Enumerations;
+
 	public class MyInfinityEnumerable : IEnumerable<Product>
 	{
 		private readonly List<Product> _products;
@@ -19,4 +19,3 @@ namespace lemure.Collections.Enumerations
 		IEnumerator IEnumerable.GetEnumerator()
 			=> new MyInfinityEnumerator(_products);
 	}
-}

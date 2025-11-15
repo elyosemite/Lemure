@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Lemure.Collections.Comparable
-{
+namespace Lemure.Collections.Comparable;
+
 	public class Car : IComparable<Car>
 	{
 		public string Name { get; set; }
@@ -24,4 +24,3 @@ namespace Lemure.Collections.Comparable
 			return MaxSpeed.ToString() + "," + Name;
 		}
 	}
-}

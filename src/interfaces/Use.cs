@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lemure.interfaces
-{
+namespace lemure.interfaces;
+
 	public class Use
 	{
 		public int number1 { get; set; }
@@ -20,4 +20,3 @@ namespace lemure.interfaces
 			Console.WriteLine($"3. {res}");
 		}
 	}
-}

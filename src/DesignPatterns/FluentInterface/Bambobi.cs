@@ -1,5 +1,5 @@
-﻿namespace Lemure.DesignPatterns.FluentInterface
-{
+﻿namespace Lemure.DesignPatterns.FluentInterface;
+
 	public class Bambobi : ICarBuilder<Bambobi>
 	{
 		public string Collor { get; private set; }
@@ -35,4 +35,3 @@
 			return bambobi;
 		}
 	}
-}

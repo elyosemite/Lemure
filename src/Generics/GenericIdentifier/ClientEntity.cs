@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace Lemure.Generics.GenericIdentifier
-{
+namespace Lemure.Generics.GenericIdentifier;
+
 	internal class ClientEntity : IGeneric<int>
 	{
 		public void ProcessEntity(int id)
@@ -10,4 +10,3 @@ namespace Lemure.Generics.GenericIdentifier
 			Console.WriteLine(id);
 		}
 	}
-}

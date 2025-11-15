@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
 
-namespace lemure.Reflection.WithReflection
-{
+namespace lemure.Reflection.WithReflection;
+
 	public class LogWithReflection
 	{
 		public static void Log(object obj)
@@ -24,4 +24,3 @@ namespace lemure.Reflection.WithReflection
 			Console.WriteLine(texto);
 		}
 	}
-}

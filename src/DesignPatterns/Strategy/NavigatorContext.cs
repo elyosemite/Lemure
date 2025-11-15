@@ -1,7 +1,7 @@
 ﻿using Lemure.DesignPatterns.Strategy.Contracts;
 
-namespace Lemure.DesignPatterns.Strategy
-{
+namespace Lemure.DesignPatterns.Strategy;
+
 	public class NavigatorContext
 	{
 		private IRouteStrategy _routeStrategy;
@@ -16,4 +16,3 @@ namespace Lemure.DesignPatterns.Strategy
 			_routeStrategy.BuildRoute(coordinateX, coordinateY);
 		}
 	}
-}

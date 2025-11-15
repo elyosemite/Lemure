@@ -6,8 +6,8 @@ using Lemure.DesignPatterns.CQRS.Models;
 using Lemure.DesignPatterns.CQRS.Notifications;
 using MediatR;
 
-namespace Lemure.DesignPatterns.CQRS.Handlers
-{
+namespace Lemure.DesignPatterns.CQRS.Handlers;
+
 	public class AlteraPessoaCommandHandler : IRequestHandler<AlterarPessoaCommand, string>
 	{
 		private readonly IMediator _mediator;
@@ -37,5 +37,4 @@ namespace Lemure.DesignPatterns.CQRS.Handlers
 			}
 		}
 	}
-}
 

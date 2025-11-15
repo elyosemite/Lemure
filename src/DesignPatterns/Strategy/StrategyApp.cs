@@ -1,8 +1,8 @@
 ﻿using Lemure.DesignPatterns.Strategy.Concretes;
 using Lemure.DesignPatterns.Strategy.Contracts;
 
-namespace Lemure.DesignPatterns.Strategy
-{
+namespace Lemure.DesignPatterns.Strategy;
+
 	public class StrategyApp
 	{
 		public static void Run()
@@ -23,4 +23,3 @@ namespace Lemure.DesignPatterns.Strategy
 
 		}
 	}
-}

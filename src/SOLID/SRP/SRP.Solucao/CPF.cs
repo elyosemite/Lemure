@@ -1,5 +1,5 @@
-﻿namespace lemure.SOLID.SRP.SRP.Solucao
-{
+﻿namespace lemure.SOLID.SRP.SRP.Solucao;
+
 	class CPF
 	{
 		public string Numero { get; set; }
@@ -9,4 +9,3 @@
 			return Numero.Length == 11;
 		}
 	}
-}

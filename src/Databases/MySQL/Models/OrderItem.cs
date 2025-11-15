@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lemure.Databases.MySQL.Models
-{
+namespace Lemure.Databases.MySQL.Models;
+
 	public class OrderItem
 	{
 		[Key]
@@ -21,4 +21,3 @@ namespace Lemure.Databases.MySQL.Models
 			OrderId = orderId;
 		}
 	}
-}

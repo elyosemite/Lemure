@@ -1,8 +1,8 @@
 ﻿using System;
 using Lemure.DesignPatterns.AbstractFactory.Contracts;
 
-namespace Lemure.DesignPatterns.AbstractFactory.Concretes
-{
+namespace Lemure.DesignPatterns.AbstractFactory.Concretes;
+
 	public class WindowsButton : Button
 	{
 		public void Paint()
@@ -10,4 +10,3 @@ namespace Lemure.DesignPatterns.AbstractFactory.Concretes
 			Console.WriteLine("Windows Button");
 		}
 	}
-}

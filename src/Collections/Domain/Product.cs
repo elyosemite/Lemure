@@ -1,5 +1,5 @@
-﻿namespace lemure.Collections.Domain
-{
+﻿namespace lemure.Collections.Domain;
+
 	public class Product
 	{
 		public string _name { get; set; }
@@ -17,4 +17,3 @@
 			return $"Name: {_name} - Code: {_code} - Description: {_description}";
 		}
 	}
-}
